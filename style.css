@@ -1,0 +1,37 @@
+.foreground {
+    position: fixed;
+    z-index: 1;
+    top: 0px;   /* Distance from the top of the viewport */
+    right: 0px; /* Distance from the right of the viewport */
+    /* You can adjust the top, bottom, left, or right properties to place the image exactly where you want it */
+    width: 100%; /* Optional: set a specific width */
+    height: 100%; /* Optional: maintain aspect ratio */
+    pointer-events: none;    /* Disables mouse clicks, hover, etc. */
+    user-select: none;       /* Disables text selection */
+    cursor: default;         /* Ensures the cursor doesn't change on hover */
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  
+  text-align:center;
+  font-family: Tahoma, sans-serif;
+}
+
+.front {
+  position: absolute;
+  z-index: 10;
+}
+
+body {
+  background-image: url('https://wallsneedlove.com/cdn/shop/products/m1906_1s_White-Washed-Brick-Wall-Mural-WallsNeedLove_Mural-Pattern-NEW.jpg?v=1753805069&width=1080');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: lighten;
+  background-color: rgba(255,255,255,0.65);
+}
