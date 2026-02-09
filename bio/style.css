@@ -1,0 +1,49 @@
+.bio {
+  height: 80vh;           /* Ensures the container takes the full viewport height */
+  width: 60%;
+  padding:10px;
+  background-color: white;
+  display: absolute;
+  text-align: center;
+  overflow:auto;
+}
+
+.center {
+  margin:0;
+  padding:0;
+  height: 35%;           /* Ensures the container takes the full viewport height */
+  width: 100%;
+  display: flex;
+  background-color:transparent;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  min-height: 100vh;
+  background-image: url('https://img.freepik.com/free-photo/black-textured-brick-wall-background_53876-63583.jpg?semt=ais_hybrid&w=740&q=80');
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: rgba(255,255,255,0.5);
+}
+
+.goals {
+  height: 80vh;           /* Ensures the container takes the full viewport height */
+  width: 60%;
+  padding:10px;
+  background-color: white;
+  display: absolute;
+  text-align: center;
+  overflow:auto;
+}
+
+.center2 {
+  margin:0;
+  padding:0;
+  height: 35%;           /* Ensures the container takes the full viewport height */
+  width: 100%;
+  display: flex;
+  background-color:transparent;
+  justify-content: center;
+  align-items: center;
+}
