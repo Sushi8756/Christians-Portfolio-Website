@@ -1,5 +1,5 @@
 .bio {
-  height: 80vh;           /* Ensures the container takes the full viewport height */
+  height: 38vh;           /* Ensures the container takes the full viewport height */
   width: 60%;
   padding:10px;
   background-color: white;
@@ -22,13 +22,14 @@ body {
   min-height: 100vh;
   background-image: url('https://img.freepik.com/free-photo/black-textured-brick-wall-background_53876-63583.jpg?semt=ais_hybrid&w=740&q=80');
   background-repeat: repeat-y;
+  background-attachment: fixed;
   background-size: cover;
   background-blend-mode: multiply;
   background-color: rgba(255,255,255,0.5);
 }
 
 .goals {
-  height: 80vh;           /* Ensures the container takes the full viewport height */
+  height: 38vh;           /* Ensures the container takes the full viewport height */
   width: 60%;
   padding:10px;
   background-color: white;
